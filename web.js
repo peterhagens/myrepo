@@ -5,7 +5,7 @@ app.use(express.logger());
 //var fs = require('fs');
 var buf = new Buffer('test');
 //var stream = fs.readFileSync("index.html");
-var output = stream.toString();
+var output = buf.toString();
 
 app.get('/', function(request, response) {
 //  response.send('Hello World2!');
